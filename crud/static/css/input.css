@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+
+/* npx @tailwindcss/cli -i ./crud/static/css/input.css -o ./crud/static/css/output.css --watch
+ */
