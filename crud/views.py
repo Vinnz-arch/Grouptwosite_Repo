@@ -78,3 +78,10 @@ def delete_gender(request, genderId):
         return render(request, 'gender/DeleteGender.html', data)    
     except Exception as e:
         return HttpResponse(f'Error occured during delete gender: {e}')
+
+
+def add_user(request):
+    try:
+        return render(request, 'user/AddUser.html')
+    except Exception as e:
+        return HttpResponse(f'Error occured during add user: {e}')
